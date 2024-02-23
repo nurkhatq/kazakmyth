@@ -1,0 +1,115 @@
+p {
+  margin-bottom: 1.2em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+
+
+     /* Resetting default margin and padding for all elements */
+     body, h1, h2, p, ul, li, a {
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: 'Arial', sans-serif;
+      background-image: url('https://avatars.mds.yandex.net/i?id=4e48970c3951f66a929c2a320292ebcd_l-6605286-images-thumbs&n=13'); /* Replace 'your-image-url.jpg' with the actual path to your image */
+        background-size: cover; /* Ensures the background image covers the entire body */
+        background-position: center; /* Centers the background image */
+        background-repeat: no-repeat; /* Prevents the background image from repeating */
+        color: #666;
+    }
+    .card {
+      background-color: rgba(79, 71, 71, 0.7); /* Semi-transparent black background for the card */
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 1500px; /* Adjust the maximum width of the card as needed */
+      margin: 0 auto; /* Center the card horizontally */
+    }
+    header {
+      
+      background-color:rgba(222, 215, 215, 0.1);
+      color: #e1d6d6;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: rgba(222, 215, 215, 0.1); /* Complementary color to the header background */
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      margin: 5px;
+      border-radius: 5px;
+      background-color: #005a8c; /* Darker shade for better contrast */
+      transition: background-color 0.3s;
+    }
+    
+    nav a:hover {
+      background-color: #00406b; /* Darken background color more on hover */
+    }
+    
+    
+    
+    
+            body {
+              font-family: 'Arial', sans-serif;
+              line-height: 1.6;
+              margin: 0;
+              padding: 0;
+              background-color: #f4f4f4;
+              color: #333;
+          }
+      
+          section {
+              max-width: 800px;
+              margin: 20px auto;
+              padding: 20px;
+              background-color: #fff;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+              border-radius: 8px;
+          }
+      
+          h2 {
+              color: #0077cc;
+              border-bottom: 2px solid #0077cc;
+              padding-bottom: 5px;
+              margin-bottom: 15px;
+          }
+      
+          p {
+              text-align: justify;
+          }
+      
+          img {
+              max-width: 100%;
+              height: auto;
+              border-radius: 8px;
+              margin-top: 15px;
+          }
+    
+            .character {
+                margin-bottom: 20px;
+            }
